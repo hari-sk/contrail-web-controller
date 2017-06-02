@@ -598,6 +598,10 @@ div#config-fw-rule {
 form h5.margin-0-0-10~.section-content {
     padding-top: 15px;
 }
-.modal-open{
-  overflow:auto;
+
+#configure-firewallRule .modal-body #configure-firewallRule-form .section-content .select2-container[class*="col-xs-"] {
+    float: none;
+}
+#endpoint_2 .select2-choices i[class^="icon-contrail-"], #endpoint_1 .select2-choices i[class^="icon-contrail-"] {
+    font-size: 13px;
 }
