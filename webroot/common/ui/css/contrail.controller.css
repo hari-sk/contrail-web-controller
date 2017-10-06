@@ -739,9 +739,9 @@ form h5.margin-0-0-10~.section-content {
     right:0px;
     z-index:10;
 }
-#fw_security_policy_as_grid_view-header div.widget-toolbar:nth-child(2),
-#fw_security_policy_service_gp_grid_view-header div.widget-toolbar:nth-child(2),
-#security-policy-tag-grid-header div.widget-toolbar:nth-child(2){
+div#aps-landing-container:not[style='display: block;'] #fw_security_policy_as_grid_view-header div.widget-toolbar:nth-child(2),
+div#aps-landing-container:not[style='display: block;'] #fw_security_policy_service_gp_grid_view-header div.widget-toolbar:nth-child(2),
+div#aps-landing-container:not[style='display: block;'] #security-policy-tag-grid-header div.widget-toolbar:nth-child(2){
     margin-right: 60px;
 }
 #aps-overlay-container .dropdown-toggle{
@@ -843,6 +843,15 @@ right:12px;}
 }
 #fw_security_policy_global_adressgroup,
 #fw_security_policy_service_gp_grid_view,
-#security-policy-tag{
+#security-policy-tag, #fw-policy-grid-id{
     padding:0px 10px;
+}
+div#aps-landing-container[style='display: block;'] #fw_security_policy_global_adressgroup,
+div#aps-landing-container[style='display: block;'] #fw_security_policy_service_gp_grid_view,
+div#aps-landing-container[style='display: block;'] #security-policy-tag, #fw-policy-grid-id{
+    padding:0px 15px;
+}
+div#aps-landing-container[style='display: block;'], div#aps-landing-container[style='display: block;'] #aps-main-container{
+    background:#ffffff;
+
 }
