@@ -318,9 +318,9 @@ define([
                                        path: "description",
                                        dataBindValue: "description",
                                        label: "Description",
-                                       rows:"5",
+                                       rows:"1",
                                        cols:"100%",
-                                       class: "col-xs-6"
+                                       class: "col-xs-12"
                                    }
                                }
                            ]

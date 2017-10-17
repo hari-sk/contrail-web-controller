@@ -875,10 +875,14 @@ div#aps-landing-container[style='display: block;'], div#aps-landing-container[st
     float:right;
     margin-right:10px;
 }
-#fw_security_policy_as_grid_view, #security-policy-tag{
-    max-height: 430px;
-    overflow-y: auto;
+#fw_security_policy_as_grid_view .grid-body .grid-canvas, #security-policy-tag .grid-body .grid-canvas, #fw_security_policy_service_gp_grid_view .grid-body .grid-canvas {
+    max-height: 330px;
+    overflow-y: auto!important;
 }
+#new-application-policy-set-grid .grid-body .grid-canvas{
+    max-height:256px;
+    overflow-y:auto!important;
+    } 
 #configure-applicationpolicyset{
     overflow-y: hidden !important;
 }
@@ -928,3 +932,12 @@ div#aps-landing-container[style='display: block;'], div#aps-landing-container[st
 .grid-header .confirmation-popover {
     right: 135px;
 }
+#configure-applicationpolicyset .contrail-editable-grid-table tr td .custom-combobox.input-append {
+    margin-bottom: -3px;
+}
+#aps-overlay-container #fw-wz-policy-grid .grid-body .grid-canvas {
+    overflow: auto!important;
+    max-height: 306px;
+}
+#aps-overlay-container .slick-viewport .grid-canvas{
+    width:100%!important;}
